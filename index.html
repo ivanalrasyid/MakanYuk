@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="stylesheet.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <!-- Icon  -->
+    <link rel="shortcut icon" href="img/logo-makanan.png" type="image/x-icon" />
+    <title>Makan Yuk</title>
+  </head>
+  <body>
+    <!-- Section Navbar  -->
+    <section id="title">
+      <!-- navbar -->
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+          <img class="logo-brand" src="img/logo-makanan.png" height="50" width="50" alt="" />
+          <a class="navbar-brand" href="#">Makan<span class="brand">Yuk</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#title">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonial">Testimoni</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- hero -->
+        <div class="row hero">
+          <div class="col-lg-6 my-auto">
+            <h1>Makanan terbaik dari bahan terpilih ditangan kamu</h1>
+            <p>Sudah tersedia pelayanan antar online dan berlanganan sesuka mu, untuk berlangganan klik tombol dibawah</p>
+            <a type="button" class="btn btn-warning" href="#berlangganan">Berlangganan</a>
+          </div>
+          <div class="col-lg-6">
+            <img class="img" src="img/trans-makan2-removebg-preview.png" alt="" srcset="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- layanan -->
+    <section id="layan">
+      <div class="row container-fluid">
+        <div class="col-lg-4 col-md-6">
+          <i class="fas fa-laugh-wink fa-3x"></i>
+          <h5 class="my-3">1000+</h5>
+          <p>Konsumen yang puas dengan rasa makanan</p>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <i class="fas fa-seedling fa-3x"></i>
+          <h5 class="my-3">Bahan terpilih</h5>
+          <p>Bahan terbaik pilihan para ahli</p>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <i class="fas fa-truck fa-3x"></i>
+          <h5 class="my-3">50+</h5>
+          <p>Layanan pengiriman yang cepat dan tepat sampai ke tangan kamu</p>
+        </div>
+      </div>
+    </section>
+    <!-- akhir layanan -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-5">
+            <div>
+              <img src="img/koki.png" alt="koki" />
+            </div>
+          </div>
+          <div class="col-md-7">
+            <h3 class="j-about">About</h3>
+            <h4 class="i-about">
+              Melayani dengan tulus untuk kalian para pengabdi hidangan merakyat. membantu mempermudah jalan kalian untuk merasakan hidangan spesial dari kami. menjaga konsistensi cita rasa hidangan untuk kalian para insan yang setia.
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir About -->
+
+    <!-- Section Menu -->
+    <section id="menu">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div>
+            <h2 class="j-menu">Menu</h2>
+          </div>
+        </div>
+        <!-- <div class="kont-menu">
+          <div class="r-atas"> -->
+        <div class="row">
+          <div class="col-lg-4 mb-3">
+            <div class="food-box">
+              <h3 class="food-name">Ayam Penyet</h3>
+              <img src="img/NASI_AYAM_PENYET.png" alt="Ayam penyet" class="food-img" />
+              <a class="btn btn-secondary food-detail-button" data-target="#ayampenyet" data-toggle="modal">Show Details</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="food-box">
+              <h3 class="food-name">Nasi Goreng</h3>
+              <img src="img/NASI_GORENG-removebg-preview.png" alt="Nasi Goreng" class="food-img" />
+              <a class="btn btn-secondary food-detail-button" data-target="#nasgor" data-toggle="modal">Show Details</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="food-box">
+              <h3 class="food-name">Nasi Kuning</h3>
+              <img src="img/NASI_KUNING_KOMPLIT-removebg-preview.png" alt="Nasi Kuning" class="food-img" />
+              <a class="btn btn-secondary food-detail-button" data-target="#naskun" data-toggle="modal">Show Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 mb-3">
+            <div class="food-box">
+              <h3 class="food-name">Ayam Kalasan</h3>
+              <img src="img/rames.png" alt="Ayam Kalasan" class="food-img" />
+              <a class="btn btn-secondary food-detail-button" data-target="#kalasan" data-toggle="modal">Show Details</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="food-box">
+              <h3 class="food-name">Ayam Geprek</h3>
+              <img src="img/AYAM_GEPREK-removebg-preview.png" alt="Ayam Geprek" class="food-img" />
+              <a class="btn btn-secondary food-detail-button" data-target="#geprek" data-toggle="modal">Show Details</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="food-box">
+              <h3 class="food-name">Siomay</h3>
+              <img src="img/SIOMAY-removebg-preview.png" alt="Siomay" class="food-img" />
+              <a class="btn btn-secondary food-detail-button" data-target="#somay" data-toggle="modal">Show Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Section Menu -->
+
+    <!-- Awal Pop Up -->
+    <div class="modal fade" id="ayampenyet" tabindex="-1" role="dialog" aria-labelledby="ayampenyetTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="ayampenyetTitle">Ayam Penyet</h5>
+          </div>
+          <div class="modal-body">
+            <img src="img/NASI_AYAM_PENYET.png" alt="Ayam Penyet" class="g-popup" width="200" />
+            <p class="t-pop">
+              Ayam penyet adalah hidangan ayam goreng Indonesia, khususnya Jawa, yang terdiri dari ayam goreng yang diulek memakai ulekan untuk melembutkannya, disajikan dengan sambal, potongan-potongan timun, tahu goreng dan tempe.
+            </p>
+            <div class="star">
+              <i class="fas fa-star fa-lg"></i>
+              <i class="fas fa-star fa-lg"></i>
+              <i class="fas fa-star fa-lg"></i>
+              <i class="fas fa-star fa-lg"></i>
+              <i class="fas fa-star-half fa-lg"></i>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="nasgor" tabindex="-1" role="dialog" aria-labelledby="nasgorTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="nasgorTitle">Nasi Goreng</h5>
+          </div>
+          <div class="modal-body">
+            <img src="img/NASI_GORENG-removebg-preview.png" alt="Nasi Goreng" class="g-popup" width="200" />
+            <p class="t-pop">
+              Nasi goreng adalah makanan berupa nasi yang digoreng dan diaduk dalam minyak goreng dan biasanya ditambah kecap manis, bawang merah, bawang putih, asam jawa, lada dan bumbu-bumbu lainnya; seperti telur, ayam, dan kerupuk.
+            </p>
+            <div class="star">
+              <i class="fas fa-star fa-lg"></i>
+              <i class="fas fa-star fa-lg"></i>
+              <i class="fas fa-star fa-lg"></i>
+              <i class="fas fa-star fa-lg"></i>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="naskun" tabindex="-1" role="dialog" aria-labelledby="naskunTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="naskunTitle">Nasi Kuning</h5>
+          </div>
+          <div class="modal-body">
+            <img src="img/NASI_KUNING_KOMPLIT-removebg-preview.png" alt="Nasi Kuning" class="g-popup" width="200" />
+            <p class="t-pop">
+              Nasi kuning ini merupakan nasi yang mempunyai warna kuning yang berasal dari pewarna alami yakni kunyit. Selain itu, rasanya juga gurih dan memiliki aroma harum. Nasi kuning di hidangkan dengan lauk yang komplit dengan sayur
+              tumis , ayam goreng , mie goreng dan tempe manis.
+            </p>
+            <div class="star">
+              <i class="fas fa-star fa-lg"></i>
+              <i class="fas fa-star fa-lg"></i>
+              <i class="fas fa-star fa-lg"></i>
+              <i class="fas fa-star fa-lg"></i>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="kalasan" tabindex="-1" role="dialog" aria-labelledby="kalasanTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="kalasanTitle">Ayam Kalasan</h5>
+          </div>
+          <div class="modal-body">
+            <img src="img/rames.png" alt="Ayam Kalasan" class="g-popup" width="200" />
+            <p class="t-pop">Ayam Goreng Kalasan adalah masakan ayam goreng dengan bumbu khusus yang berasal dari daerah Kalasan, Sleman Yogyakarta</p>
+            <div class="star">
+              <i class="fas fa-star fa-lg"></i>
+              <i class="fas fa-star fa-lg"></i>
+              <i class="fas fa-star fa-lg"></i>
+              <i class="fas fa-star fa-lg"></i>
+              <i class="fas fa-star fa-lg"></i>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="geprek" tabindex="-1" role="dialog" aria-labelledby="geprekTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="geprekTitle">Ayam Geprek</h5>
+          </div>
+          <div class="modal-body">
+            <img src="img/AYAM_GEPREK-removebg-preview.png" alt="Ayam Geprek" class="g-popup" width="200" />
+            <p class="t-pop">Ayam geprek merupakan daging ayam berlapis tepung tipis dan digoreng. Kemudian, ayam ini akan digeprek dan dicampur dengan sajian sambal ulek yang pedas.</p>
+            <div class="star">
+              <i class="fas fa-star fa-lg"></i>
+              <i class="fas fa-star fa-lg"></i>
+              <i class="fas fa-star fa-lg"></i>
+              <i class="fas fa-star fa-lg"></i>
+              <i class="fas fa-star-half fa-lg"></i>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="somay" tabindex="-1" role="dialog" aria-labelledby="somayTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="somayTitle">Siomay</h5>
+          </div>
+          <div class="modal-body">
+            <img src="img/SIOMAY-removebg-preview.png" alt="Siomay" class="g-popup" width="200" />
+            <p class="t-pop">siomay adalah salah satu jenis dim sum yang berisi daging, biasanya disajikan dengan saus kacang dan pelengkap lainnya</p>
+            <div class="star">
+              <i class="fas fa-star fa-lg"></i>
+              <i class="fas fa-star fa-lg"></i>
+              <i class="fas fa-star fa-lg"></i>
+              <i class="fas fa-star fa-lg"></i>
+              <i class="fas fa-star-half fa-lg"></i>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Akhir Pop Up -->
+
+    <!-- section pricing -->
+    <section id="berlangganan" class="pricing py-5">
+      <div class="container">
+        <div class="row">
+          <!-- Free Tier -->
+          <div class="col-lg-4">
+            <div class="card mb-5 mb-lg-0">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">Harian</h5>
+                <h6 class="card-price text-center">Rp.20.000</h6>
+                <hr />
+                <ul class="fa-ul">
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>Halal
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>1 Lauk
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>1 Sayur
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>Air Mineral
+                  </li>
+                </ul>
+                <div class="d-grid">
+                  <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#harian">Pesan</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Plus Tier -->
+          <div class="col-lg-4">
+            <div class="card mb-5 mb-lg-0">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">Mingguan</h5>
+                <h6 class="card-price text-center">Rp.120.000</h6>
+                <hr />
+                <ul class="fa-ul">
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>Halal
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>3 Lauk
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>2 Sayur
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>Air mineral
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>Free 2 Buah
+                  </li>
+                </ul>
+                <div class="d-grid">
+                  <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#mingguan">Pesan</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Pro Tier -->
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">Bulanan</h5>
+                <h6 class="card-price text-center">Rp.500.000</h6>
+                <hr />
+                <ul class="fa-ul">
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>Halal
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>5 Lauk
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>4 Sayur
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>Air Mineral
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>Free 3 Buah
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>Free Cemilan ringan
+                  </li>
+                </ul>
+                <div class="d-grid">
+                  <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#bulanan">Pesan</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir section pricing -->
+
+    <!-- Pop up Pricing -->
+    <div class="modal fade" id="harian" tabindex="-1" role="dialog" aria-labelledby="harianTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="harianTitle"><i class="far fa-calendar-alt"></i> Harian</h5>
+          </div>
+          <div class="modal-body">
+            <img width="200px" src="img/qrcode.png" alt="qrcode" />
+            <i class="fab fa-whatsapp fa-3x pt-3"></i>
+            <p class="qr">Scan QR code diatas untuk berlangganan</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="mingguan" tabindex="-1" role="dialog" aria-labelledby="mingguanTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="mingguanTitle"><i class="far fa-calendar-alt"></i> Mingguan</h5>
+          </div>
+          <div class="modal-body">
+            <img width="200px" src="img/qrcode.png" alt="qrcode" />
+            <i class="fab fa-whatsapp fa-3x pt-3"></i>
+            <p class="qr">Scan QR code diatas untuk berlangganan</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="bulanan" tabindex="-1" role="dialog" aria-labelledby="bulananTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="bulananTitle"><i class="far fa-calendar-alt"></i> Bulanan</h5>
+          </div>
+          <div class="modal-body">
+            <img width="200px" src="img/qrcode.png" alt="qrcode" />
+            <i class="fab fa-whatsapp fa-3x pt-3"></i>
+            <p class="qr">Scan QR code diatas untuk berlangganan</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Pop up  -->
+
+    <!-- Section Testimonial -->
+    <section class="testimonial" id="testimonial">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Testimoni</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-xl-7">
+            <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active bg-warning" aria-current="true" aria-label="Slide 1"></button>
+                <button class="bg-warning" type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button class="bg-warning" type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="testi-item bg-white carousel-item active shadow-sm rounded testi-1">
+                  <div class="testi-author-info d-flex align-items-center">
+                    <img class="koki-1" src="img/1.jpg" alt="testimonials" class="img-thumbnail rounded-circle" />
+                    <div class="author ms-3">
+                      <h3 class="fs-6 mb-1">Putri Marino</h3>
+                      <p class="text-muted m-0">Konsumen</p>
+                    </div>
+                  </div>
+                  <p class="mt-3">Makan Yuk membantu banget , disela kesibukanku dengan kerjaan tapi keluarga tetep bisa makan enak , Thanks MakanYuk!</p>
+                </div>
+                <div class="testi-item bg-white carousel-item shadow-sm rounded testi-2">
+                  <div class="testi-author-info d-flex align-items-center">
+                    <img class="koki-1" src="img/2.jpg" alt="testimonials" class="img-thumbnail rounded-circle" />
+                    <div class="author ms-3">
+                      <h3 class="fs-6 mb-1">Iqbal Ramadhan</h3>
+                      <p class="text-muted m-0">Konsumen</p>
+                    </div>
+                  </div>
+                  <p class="mt-3">Ga bosen deh pesan makan di MakanYuk , Bisa request dan konsultasi dengan chef nya !!</p>
+                </div>
+                <div class="testi-item bg-white carousel-item shadow-sm rounded testi-3">
+                  <div class="testi-author-info d-flex align-items-center">
+                    <img class="koki-1" src="img/3.jpg" alt="testimonials" class="img-thumbnail rounded-circle" />
+                    <div class="author ms-3">
+                      <h3 class="fs-6 mb-1">Salsabila</h3>
+                      <p class="text-muted m-0">Konsumen</p>
+                    </div>
+                  </div>
+                  <p class="mt-3">Barusan pesen dan makan bareng ponakan gw , sumpah nambah banyak banget karena enak banget !</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Section Testimonial -->
+
+    <!-- Awal Section Notif -->
+    <section id="notif">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Mau Kirim Kritik dan Saran</h2>
+            <p>Kami terbuka untuk setiap kritik & saran Anda</p>
+          </div>
+          <div class="col-md-6">
+            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+              <strong>Terimakasih!</strong>Pesan anda sudah kami terima
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <form name="makanYuk-contact-form" class="d-flex">
+              <textarea class="form-control me-2" type="send" name="pesan"></textarea>
+              <button class="btn btn-outline-success btn-bwh btn-kirim" type="submit"><i class="fas fa-paper-plane fa-2x"></i></button>
+
+              <button class="btn btn-warning btn-loading d-none" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    >
+    <!-- Akhir Section Notif -->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-muted">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4">
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4"><i class="fas fa-gem me-3"></i>MakanYuk</h6>
+              <p>Melayani dengan tulus untuk kalian para pengabdi hidangan merakyat. membantu mempermudah jalan kalian untuk merasakan hidangan spesial dari kami</p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+              <p>
+                <a href="#!" class="text-reset">Makanan</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3"></i> Kelapa Dua, Depok</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                MakanKuy@gmail.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> +62812 8282 6354</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="container">
+        <div class="p-4 border-top d-flex justify-content-center" style="background-color: rgba(0, 0, 0, 0.05)">© 2021 Copyright : MakanYuk</div>
+      </div>
+
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="vanilla-tilt.min.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".food-box"), {
+        max: 25,
+        speed: 400,
+      });
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html>

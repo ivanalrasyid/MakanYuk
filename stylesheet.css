@@ -1,0 +1,416 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+body {
+  background-color: #ffff;
+}
+
+.logo-brand {
+  border-radius: 100%;
+}
+
+/* Navbar Section */
+#title {
+  background-color: #fff;
+}
+
+.navbar-brand {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.nav-link {
+  margin-left: 2em;
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid black;
+  width: 58% !important;
+}
+
+.brand {
+  color: #ffce45;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover {
+  color: #ffce45;
+}
+
+.navbar {
+  background: #fff;
+  padding: 1rem 8.7rem;
+}
+
+.hero {
+  padding: 1rem 8rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.img {
+  padding-left: 126px;
+}
+
+/* botton berlangganan */
+.btn-warning {
+  color: #000;
+  background-color: #ffce45;
+  border-color: #ffce45;
+}
+
+/* Layanan */
+#layan {
+  background-color: #ffce45;
+  text-align: center;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+/* About */
+#about {
+  padding-top: 4rem;
+}
+
+.j-about {
+  padding-top: 150px;
+  color: #ffce45;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.t-about {
+  padding-top: 20px;
+}
+
+/*section content*/
+
+#content {
+  padding-top: 4em;
+  padding-bottom: 1em;
+  padding-left: 4em;
+}
+
+/* notif */
+
+#notif {
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+
+.form-control {
+  width: 50%;
+  margin-left: 10em;
+  border-color: black;
+}
+
+.d-flex {
+  padding-top: 7px;
+}
+
+footer {
+  background-color: black;
+  padding-top: -500px;
+}
+
+.social {
+  text-align: right;
+  margin-top: -25px;
+  padding-right: 20px;
+}
+
+/* Menu */
+#menu {
+  margin-top: 10%;
+  padding: 6rem 0;
+  background-color: #ffce45;
+}
+
+.j-menu {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.menu-1 {
+  margin-left: 0.5px;
+}
+
+.food-box {
+  position: relative;
+  background-color: #fff;
+  border-radius: 10px;
+  height: 500px;
+  transform-style: preserve-3d;
+  margin-top: 10%;
+}
+
+.food-box::before {
+  content: "OUR";
+  position: absolute;
+  color: black;
+  font-size: 5em;
+  font-weight: bold;
+  font-style: italic;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.food-box:hover::before {
+  opacity: 0.2;
+}
+
+.food-box::after {
+  content: "FOOD";
+  position: absolute;
+  color: black;
+  font-size: 4.3em;
+  font-weight: bold;
+  font-style: italic;
+  top: 350px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+  z-index: -999;
+}
+
+.food-box:hover::after {
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0.2;
+}
+
+.food-name {
+  color: black;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  opacity: 0;
+  transform: translate3d(0, 0, 50px);
+  transition: 0.5s;
+}
+
+.food-box:hover .food-name {
+  top: 20px;
+  opacity: 1;
+}
+
+.food-detail-button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate3d(-50%, 0, 100px);
+  opacity: 0;
+  transition: 00.5s;
+  background-color: #ffce45;
+  border-color: #ffce45;
+  color: #fff;
+}
+
+.food-detail-button:hover {
+  background-color: #ffce45;
+  border-color: #ffce45;
+}
+.food-box:hover .food-detail-button {
+  opacity: 1;
+  bottom: 20px;
+}
+
+.food-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -52%, 80px);
+  max-width: 250px;
+  transition: 0.5s;
+  border-radius: 100%;
+  box-shadow: 3px 3px 4px rgb(0 0 0 / 40%);
+}
+
+.food-box:hover .food-img {
+  transform: translate3d(-50%, -52%, 100px) rotate(5deg) scale(1.2);
+}
+
+/* popup */
+.modal-header {
+  align-self: center;
+  width: 100%;
+  justify-content: center;
+  background-color: #ffce45;
+}
+
+.modal-title {
+  font-weight: bold;
+}
+
+.modal-body {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.t-pop {
+  padding-top: 30px;
+}
+
+/* Pricing Price */
+section.pricing {
+  background-color: #fff;
+}
+
+.py-5 {
+  padding-top: 6rem !important;
+  padding-bottom: 6rem !important;
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  border: #000;
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #ffce45;
+  border-color: #ffce45;
+}
+
+/* start popup pricing */
+.qr {
+  padding-top: 1rem;
+}
+/* end popup pricing */
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -0.25rem;
+    margin-bottom: 0.25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+
+  .pricing .card:hover .btn-price {
+    opacity: 1;
+  }
+
+  .btn-price:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  /* Testmonial  */
+  #testimonial {
+    background-color: #ffce45;
+    padding: 6rem 0;
+  }
+
+  .testi-1 {
+    padding: 7px;
+    margin-bottom: 5px;
+  }
+
+  .testi-2 {
+    padding: 7px;
+    margin-bottom: 5px;
+  }
+
+  .testi-3 {
+    padding: 7px;
+    margin-bottom: 5px;
+  }
+
+  .koki-1 {
+    width: 70px;
+    border-radius: 100%;
+  }
+
+  .koki-2 {
+    width: 70px;
+  }
+
+  .koki-3 {
+    width: 70px;
+  }
+
+  .indi {
+    padding-top: 20%;
+  }
+
+  .carousel-indicators {
+    transform: translate(0, 50%);
+  }
+  */
+
+/* notifikasi */
+.btn-outline-success {
+    border-color: black;
+    color: black;
+  }
+
+  .btn-outline-success:hover {
+    color: black;
+    background-color: #ffce45;
+    border-color: black;
+  }
+
+  /* Footer */
+  .social {
+    transform: translate(0, -90%);
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.btn-bwh {
+  width: 62px;
+}
+
+.fa-gem {
+  justify-content: center;
+}
